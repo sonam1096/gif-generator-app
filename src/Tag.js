@@ -14,7 +14,7 @@ const Tag = () => {
         <input value={tag} onChange={(e) => setTag(e.target.value)} />
         </div>
         <div className='tagB'>
-        <button onClick={() => response(tag)}>Click for new GIF</button>
+        <button onClick={() => response(tag)}>Click for GIF</button>
         </div>
     </div>
   )
